@@ -181,23 +181,6 @@ section{
 /* End Apple product 3 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Apple__product-2{
     background: url(/images/Apple-product/Designed-by-Apple-in-California-3.jpg);
         background-position: center;
@@ -334,7 +317,33 @@ section{
 
 /* footer */
 footer {
-    height: 40vh;
-    background-color: black;
+    height: 20vh;
+    background-color: #E3E3E3;
+    padding: 40px; 
+    text-align: center;   
 }
+
+footer .onglet{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+
+.onglet .onglet_appstore{
+    display: flex;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.onglet .onglet_appstore p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
 /* end footer */
