@@ -30,6 +30,7 @@ nav .navigation__tab{
 nav .navigation__tab p{
     margin-right: 20px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 nav  .navigation__Apple-logo{
@@ -46,7 +47,7 @@ section{
 }
 
 .Apple__product-1{
-    background: url(/images/Apple-product/Designed-by-Apple-in-California-2.jpg);
+    background: url(/images/Apple-product/1-Piscine.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -63,7 +64,9 @@ section{
 
 .Apple__product-1 .Apple_product-description h1{
     display: flex;
-    font-size: 40px;
+    margin-top: 90px;
+    font-size: 80px;
+    color: white;
     /* text-align: center; */
     
 }
@@ -74,9 +77,9 @@ section{
 
 .Apple__product-1 p{
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     /* text-align: center; */
-    color: #404646;
+    color: white;
 }
 .Apple__product-1 .Apple_product-description button{
     font-size: 13px;
@@ -86,10 +89,12 @@ section{
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    background-color: #3F3F3F;
-    color: white;
+    background-color: yellow;
+    color:  black;
     margin-top: 10px;
 }
+
+
 /* End Apple product 1 */
 
 /* apple-product 2 */
@@ -102,9 +107,12 @@ section{
 }
 
 .Apple__product-2 .Apple_product-description h1 {
+    color: white;
     margin-top: 5%;
     display: flex;
-    font-size: 40px;
+    width: 40%;
+    font-size: 60px;
+    border-bottom: 2px solid yellow;
     /* text-align: center; */
 
 }
@@ -116,10 +124,12 @@ section{
 
 .Apple__product-2 p {
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     /* text-align: center; */
-    color: #404646;
+    color: white;
 }
+
+
 
 .Apple__product-2 .Apple_product-description button {
     font-size: 13px;
@@ -133,6 +143,12 @@ section{
     color: white;
     margin-top: 10px;
 }
+
+iframe{
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
 
 /* End Apple product 2 */
 
@@ -182,7 +198,7 @@ section{
 
 
 .Apple__product-2{
-    background: url(/images/Apple-product/Designed-by-Apple-in-California-3.jpg);
+    background: url(/images/Apple-product/2-piscine.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -190,7 +206,7 @@ section{
 
 }
 .Apple__product-3{
-    background: url(/images/Apple-product/Designed-by-Apple-in-California-4.jpg);
+    background: url(/images/Apple-product/3-Piscine.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -317,6 +333,7 @@ section{
 
 /* footer */
 footer {
+    margin-top: 30px;
     height: 20vh;
     background-color: #E3E3E3;
     padding: 40px; 
